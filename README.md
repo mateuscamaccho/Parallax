@@ -1,5 +1,5 @@
 ### First Parallax
-Primeiro projeto com efeito parallax. Foram utilizados HTML5 CSS.
+Primeiro projeto com efeito parallax. Foram utilizados HTML5 e CSS.
 
 ## Tech
 
