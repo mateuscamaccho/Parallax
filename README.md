@@ -5,12 +5,6 @@ Primeiro projeto com efeito parallax. Foram utilizados HTML5 e CSS.
 
 HTML e CSS
 
-## Started 🔔 
-
-Você pode ver o projeto através do link abaixo :)
-
-<a href="http://firstParallax.herokuapp.com/" target="_blank" alt="">EasyCarbon</a>
-
 ---
 ## Tech Mateus
 
