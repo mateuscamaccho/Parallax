@@ -1,0 +1,62 @@
+/* Esse código é só para tirar as margens */
+body,
+html {
+    margin : 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.wrapper {
+    height         : 100vh;
+    overflow-x     : hidden;
+    perspective    : 2px;
+    transform-style: preserve-3d;
+}
+
+.section {
+    position       : relative;
+    height         : 100vh;
+    min-height     : 700px;
+    transform-style: inherit;
+}
+
+.section::before {
+    content            : " ";
+    position           : absolute;
+    top                : 0;
+    right              : 0;
+    bottom             : 0;
+    left               : 0;
+    z-index            : -1;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    background-position: center center;
+    transform          : translateZ(-1px) scale(1.5);
+}
+
+.text {
+    position        : absolute;
+    top             : 25%;
+    width           : 100%;
+    padding         : 20px 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    color           : white;
+    text-shadow     : 0 0 5px #000;
+    font-size       : 2em;
+    text-align      : center;
+}
+
+.bg1::before {
+    background-image: url('imagens/bg1.jpg');
+    perspective     : -2px;
+}
+
+.bg2::before {
+    background-image: url('imagens/bg2.jpg');
+    perspective     : 10px;
+}
+
+.bg3::before {
+    background-image: url('imagens/bg3.jpg');
+    perspective     : -2px;
+}
